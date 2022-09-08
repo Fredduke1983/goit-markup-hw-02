@@ -1,0 +1,76 @@
+body {
+  background: rgba(241, 241, 198, 0.1);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  width: 1600px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* ------HEADER------ */
+
+.header {
+  background: rgb(241, 232, 232);
+  display: flex;
+}
+.logo {
+  display: inline-block;
+  margin: 24px 93px 25px 215px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+.logo-span {
+  color: #2196f3;
+}
+.navigation ul {
+  display: flex;
+  margin: 32px 0;
+}
+.navigation ul li + li {
+  padding-left: 50px;
+}
+
+.navigation ul li {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.navigation a {
+  color: #212121;
+}
+.navigation a:hover {
+  color: #2196f3;
+}
+
+.contacts {
+  margin: 32px auto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.contacts a + a {
+  margin-left: 50px;
+}
+.contacts a {
+  color: #757575;
+}
+.contacts a:hover {
+  color: #2196f3;
+}

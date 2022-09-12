@@ -4,7 +4,7 @@
   --team-bg-color: #f4f9fa;
   --second-text-color: #757575;
   --logo-nav-button-color: #2196f3;
-  --logo-color: #000;
+  --logo-color: #000000;
   --shadow-color: #000000;
   --hero-footer-bg-color: #2f303a;
   --hero-footer-text-color: #fff;
@@ -23,11 +23,13 @@
 }
 body {
   background-color: var(--main-bg-color);
+  color: var(--main-text-color);
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
   margin: 0;
   padding: 0;
+  letter-spacing: 0.03em;
 }
 
 h1,
@@ -63,7 +65,6 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  letter-spacing: 0.03em;
   color: var(--logo-color);
 }
 .header-logo-position {
@@ -90,7 +91,10 @@ a {
 .navigation a {
   color: var(--main-text-color);
 }
-.navigation a:hover {
+.navigation a:hover,
+.navigation a:focus,
+.contacts a:hover,
+.contacts a:focus {
   color: var(--logo-nav-button-color);
 }
 
@@ -106,9 +110,6 @@ a {
 }
 .contacts a {
   color: var(--second-text-color);
-}
-.contacts a:hover {
-  color: var(--logo-nav-button-color);
 }
 
 /*  -----MAIN----- */
@@ -268,4 +269,34 @@ address {
   /* padding-bottom: 60px; */
   font-style: normal;
   font-size: 14px;
+}
+
+/* -----------------------PORTFOLIO-------------------------------- */
+
+/* -----MAIN----- */
+.web-filter .button {
+  color: #212121;
+  background-color: #f5f4fa;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.web-filter .button:hover,
+.web-filter .button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px #00000040;
+}
+.works h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.works p {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--second-text-color);
 }

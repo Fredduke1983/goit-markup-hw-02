@@ -16,35 +16,36 @@
   <body>
     <!-- Панель навігації -->
     <header class="header">
-      <a href="./index.html" class="logo header-logo-position"
+      <a href="./index.html" class="logo header-logo-position" lang="en"
         ><span class="logo-span">Web</span>Studio</a
       >
       <nav class="navigation">
         <ul>
           <li>
-            <a href="./index.html">Студія</a>
+            <a href="./index.html" class="navigation-anchor">Студія</a>
           </li>
           <li>
-            <a href="./portfolio.html">Портфоліо</a>
+            <a href="./portfolio.html" class="navigation-anchor">Портфоліо</a>
           </li>
           <li>
-            <a href="#">Контакти</a>
+            <a href="#" class="navigation-anchor">Контакти</a>
           </li>
         </ul>
       </nav>
       <div class="contacts">
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <a href="mailto:info@devstudio.com" class="contacts-anchor">info@devstudio.com</a>
+        <a href="tel:+380961111111" class="contacts-anchor">+38 096 111 11 11</a>
       </div>
     </header>
-    <main class="container">
-      <section>
+    <main>
+      <section class="container">
+        <h1 class="visually-hidden">Our Portfolio</h1>
         <ul class="web-filter">
-          <li><button type="button" class="button">Усі</button></li>
-          <li><button type="button" class="button">Веб-сайти</button></li>
-          <li><button type="button" class="button">Додатки</button></li>
-          <li><button type="button" class="button">Дизайн</button></li>
-          <li><button type="button" class="button">Маркетинг</button></li>
+          <li><button type="button" class="filter-button">Усі</button></li>
+          <li><button type="button" class="filter-button">Веб-сайти</button></li>
+          <li><button type="button" class="filter-button">Додатки</button></li>
+          <li><button type="button" class="filter-button">Дизайн</button></li>
+          <li><button type="button" class="filter-button">Маркетинг</button></li>
         </ul>
         <ul class="works">
           <li>
@@ -97,13 +98,19 @@
     </main>
     <footer class="footer">
       <section class="container">
-        <a href="./index.html" class="logo footer-logo-position"
+        <h2 class="visually-hidden">контакти <span lang="en">webstudio</span></h2>
+        <a href="./index.html" class="logo footer-logo-position" lang="en"
           ><span class="logo-span">Web</span>Studio</a
         >
         <address>
           <ul>
             <li>
-              <a href="https://goo.gl/maps/Vq4ThPcJuNUEZJUE8" target="_blank" noopener nofollow>
+              <a
+                href="https://goo.gl/maps/Vq4ThPcJuNUEZJUE8"
+                target="_blank"
+                rel="noopener nofollow norefferer"
+                class="address"
+              >
                 м.Київ, пр-т Лесі Українки, 26
               </a>
             </li>

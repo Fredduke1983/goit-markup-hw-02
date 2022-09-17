@@ -45,15 +45,15 @@ a {
   text-decoration: none;
 }
 .container {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
 }
 
 /* ------HEADER------ */
 
-/* .header {
-  display: flex;
-} */
+.header {
+  /* display: flex; */
+}
 
 .logo {
   display: inline-block;
@@ -61,7 +61,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   color: var(--logo-color);
 }
 .header-logo-position {
@@ -72,8 +72,8 @@ a {
   color: var(--accent-color);
 }
 .navigation ul {
-  /* display: flex; */
-  /* margin: 32px 0; */
+  /* display: flex;
+  margin: 32px 0; */
 }
 .navigation ul li + li {
   /* padding-left: 50px; */
@@ -85,6 +85,9 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+}
+.current {
+  color: var(--accent-color);
 }
 
 .navigation-anchor:hover,
@@ -199,22 +202,22 @@ a {
 
 .team {
   background-color: var(--team-bg-color);
-  /* padding-bottom: 94px; */
+  padding-bottom: 94px;
 }
 
 .team h2 {
-  /* text-align: center;
+  text-align: center;
   padding-top: 94px;
-  padding-bottom: 50px; */
+  padding-bottom: 50px;
   font-size: 36px;
   font-weight: 700;
   color: var(--main-text-color);
 }
 .team-list {
-  /* display: flex; */
+  display: flex;
 }
 .team-list li + li {
-  /* margin-left: 30px; */
+  margin-left: 30px;
 }
 .team-list li {
   width: 270px;
@@ -234,7 +237,7 @@ a {
 }
 
 .card-description h3 {
-  /* padding-top: 30px; */
+  padding-top: 30px;
   font-weight: 500;
   font-size: 16px;
   text-align: center;
@@ -242,8 +245,7 @@ a {
 }
 
 .card-description p {
-  /* text-align: center;
-  padding-bottom: 30px; */
+  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
